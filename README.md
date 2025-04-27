@@ -20,7 +20,7 @@ Welcome to **ColorMancer**, a web-based project that allows users to easily swit
 
     Or
 
-a. Visit Website - 
+a. Visit Website - <br>
 b. Click on any palette to change the color theme of the webpage instantly.
 
 ## Technologies Used
