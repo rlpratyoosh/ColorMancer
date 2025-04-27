@@ -18,10 +18,10 @@ Welcome to **ColorMancer**, a web-based project that allows users to easily swit
 2. Open index.html in your browser to view the site.
 3. Click on any palette to change the color theme of the webpage instantly.
 
-    Or
+## Or
 
-a. Visit Website - <br>
-b. Click on any palette to change the color theme of the webpage instantly.
+1. Visit Website - https://rlpratyoosh.github.io/ColorMancer/
+2. Click on any palette to change the color theme of the webpage instantly.
 
 ## Technologies Used
 - HTML: Structure of the webpage.
