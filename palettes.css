@@ -1,0 +1,140 @@
+/* Palettes Container */
+.colorPalettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    min-height: 40vh;
+    background-color: #FFF5E1;
+}
+
+/* Individual Palette */
+.colorPalette1, .colorPalette2, .colorPalette3, .colorPalette4, .colorPalette5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: 35vh;
+    width: 13vh;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #FFF5E1;
+}
+
+/* Individual Color Boxes */
+.color1, .color2, .color3, .color4, .color5 {
+    height: 7vh;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Specific colors */
+#color11{
+    background-color: #FFA726;
+}
+#color12{
+    background-color: #FFB74D;
+}
+#color13{
+    background-color: #FFCC80;
+}
+#color14{
+    background-color: #FFE0B2;
+}
+#color15{
+    background-color: #FFF5E1;
+}
+#color21{
+    background-color: #26C6DA;
+}
+#color22{
+    background-color: #4DD0E1;
+}
+#color23{
+    background-color: #80DEEA;
+}
+#color24{
+    background-color: #B2EBF2;
+}
+#color25{
+    background-color: #E0F7FA;
+}
+#color31{
+    background-color: #B2E0E6
+}
+#color32{
+    background-color: #C4F1F4;
+}
+#color33{
+    background-color: #E0F7FA;
+}
+#color34{
+    background-color: #E8F9FD;
+}
+#color35{
+    background-color: #F0FDFF;
+}
+#color41{
+    background-color: #468FAF;
+}
+#color42{
+    background-color: #61A5C2;
+}
+#color43{
+    background-color: #89C2D9;
+}
+#color44{
+    background-color: #A0D8E1;
+}
+#color45{
+    background-color: #D0E8F2;
+}
+#color51{
+    background-color: #EC407A;
+}
+#color52{
+    background-color: #F06292;
+}
+#color53{
+    background-color: #F48FB1;
+}
+#color54{
+    background-color: #F8BBD0;
+}
+#color55{
+    background-color: #FADADD;
+}
+
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+    .colorPalette1, .colorPalette2, .colorPalette3, .colorPalette4, .colorPalette5 {
+        width: 10vh;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .colorPalettes {
+        gap: 15px;
+    }
+    .colorPalette1, .colorPalette2, .colorPalette3, .colorPalette4, .colorPalette5 {
+        width: 6vh;
+        height: 28vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .colorPalettes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .colorPalette1, .colorPalette2, .colorPalette3, .colorPalette4, .colorPalette5 {
+        width: 30%;
+        height: 25vh;
+    }
+}
